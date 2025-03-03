@@ -1,60 +1,88 @@
-import { Suspense, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
-
-import Developer from '../components/Developer.jsx';
-import CanvasLoader from '../components/Loading.jsx';
+import { useState } from 'react';
 import { workExperiences } from '../constants/index.js';
+import { Building2, Clock, BriefcaseBusiness } from 'lucide-react';
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
 
   return (
     <section className="c-space my-20" id="work">
-      <div className="w-full text-white-600">
-        <p className="head-text">My Work Experience</p>
+      <div className="w-full">
+      <div className="flex items-center gap-2 mb-12">
+          <BriefcaseBusiness className="w-8 h-8 text-white-600" />
+          <h2 className="head-text">Work Experience</h2>
+        </div>
 
-        <div className="work-container">
-          <div className="work-canvas">
-            <Canvas>
-              <ambientLight intensity={7} />
-              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-              <directionalLight position={[10, 10, 10]} intensity={1} />
-              <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-
-              <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={3} animationName={animationName} />
-              </Suspense>
-            </Canvas>
-          </div>
-
-          <div className="work-content">
-            <div className="sm:py-10 py-5 sm:px-5 px-2.5">
-              {workExperiences.map((item, index) => (
-                <div
-                  key={index}
-                  onClick={() => setAnimationName(item.animation.toLowerCase())}
-                  onPointerOver={() => setAnimationName(item.animation.toLowerCase())}
-                  onPointerOut={() => setAnimationName('idle')}
-                  className="work-content_container group">
-                  <div className="flex flex-col h-full justify-start items-center py-2">
-                    <div className="work-content_logo">
-                      <img className="w-full h-full" src={item.icon} alt="" />
+        <div className="mt-12 relative">
+          {/* Timeline line */}
+          <div className="absolute sm:left-8 left-6 top-0 bottom-0 w-0.5 bg-black-300" />
+          
+          <div className="w-full">
+            {workExperiences.map((item) => (
+              <div
+                key={item.id}
+                onClick={() => setAnimationName(item.animation.toLowerCase())}
+                onPointerOver={() => setAnimationName(item.animation.toLowerCase())}
+                onPointerOut={() => setAnimationName('idle')}
+                className="relative mb-8 last:mb-0"
+              >
+                {/* Timeline dot */}
+                <div className="absolute sm:left-8 left-6 -translate-x-1/2 w-3 h-3 rounded-full bg-black-300 border-2 border-black-500" />
+                
+                <div className="ml-[53px] sm:ml-20">
+                  <div className="work-content border border-black-300 rounded-lg p-6 hover:border-black-500 transition-all duration-300">
+                    <div className="space-y-3">
+                      {/* Designation */}
+                      <h3 className="text-xl font-semibold text-white-800">
+                        {item.pos}
+                      </h3>
+                      
+                      {/* Company Name with Icon */}
+                      <div className="flex items-center gap-2 text-white-600">
+                        <div>
+                          <Building2 
+                            className="w-5 h-5"
+                            style={{
+                              filter: 'drop-shadow(2px 2px 2px rgba(0,0,0,0.3))'
+                            }}
+                          />
+                        </div>
+                        <p className="font-medium">{item.name}</p>
+                      </div>
+                      
+                      {/* Duration with Icon */}
+                      <div className="flex items-center gap-2 text-white-500">
+                        <div>
+                          <Clock 
+                            className="w-4 h-4"
+                            style={{
+                              filter: 'drop-shadow(2px 2px 2px rgba(0,0,0,0.3))'
+                            }}
+                          />
+                        </div>
+                        <p className="text-sm">{item.duration}</p>
+                      </div>
+                      
+                      {/* Description */}
+                      <p className="text-white-600 mt-4 group-hover:text-white transition-all duration-500">
+                        {item.title}
+                      </p>
                     </div>
 
-                    <div className="work-content_bar" />
-                  </div>
-
-                  <div className="sm:p-5 px-2.5 py-5">
-                    <p className="font-bold text-white-800">{item.name}</p>
-                    <p className="text-sm mb-5">
-                      {item.pos} -- <span>{item.duration}</span>
-                    </p>
-                    <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    {/* Tags Section */}
+                    {/* <div className="mt-6">
+                      <div className="flex items-center gap-3 flex-wrap">
+                        {item.tags.map((tag, index) => (
+                          <div key={index} className="tech-logo">
+                            <img src={tag.path} alt={tag.name} />
+                          </div>
+                        ))}
+                      </div>
+                    </div> */}
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

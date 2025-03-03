@@ -58,15 +58,16 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Base - BE version with Express and MongoDB',
+    desc: 'Base - BE Version with Express and MongoDB is a powerful, production-ready backend template designed to kickstart your application with ease. Built on Express.js and MongoDB, it offers a scalable and efficient foundation for modern web applications. ',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'With built-in authentication functionality, developers can focus on core features without reinventing the wheel. Whether you are building a startup or an enterprise-grade system, Base ensures a seamless and secure backend experience.',
+    href: 'https://github.com/i-am-abdullah/base',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/layers.png',
+    technologies:["NodeJS", "ExpressJS","MongoDB", "TypeScript","REST APIs", "Authentication" ],
     logoStyle: {
-      backgroundColor: '#2A1816',
+      backgroundColor: '#FFC861',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
@@ -95,13 +96,14 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Base - BE Version with NestJS and PostgreSQL',
+    desc: 'Base - BE Version with NestJS and PostgreSQL is a robust, production-ready backend template designed for scalability and efficiency. Built with NestJS and PostgreSQL, it provides a solid foundation for modern applications, ensuring high performance and maintainability.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'With built-in authentication functionality, it streamlines user management while following best practices for security and modular architecture. Whether you are launching a startup or an enterprise system, Base accelerates development without compromising on quality.',
+    href: 'https://github.com/i-am-abdullah/base-v2',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
+    technologies:["NodeJS", "NestJS","PostgreSQL","TypeORM", "TypeScript","REST APIs", "Authentication" ],
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -132,13 +134,14 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'AI To-Do Agent – Smart Task Management in Your Terminal',
+    desc: 'The AI To-Do Agent is a powerful, terminal-based assistant that makes task management effortless. Simply type natural language commands like "Add a task: Go to the gym at 7:30 PM today," and it will handle it instantly. Need to check your schedule? Just ask, "Any pending tasks for today?" and get quick answers. ',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'With built-in CRUD operations and smart task search, this AI-driven tool keeps you organized with zero hassle. No complex menus—just type, manage, and stay on top of your day with ease!',
+    href: 'https://github.com/i-am-abdullah/todo-ai-agent',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
+    technologies:["NodeJS", "ExpressJS","PostgreSQL","TypeORM", "TypeScript"],
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -147,103 +150,93 @@ export const myProjects = [
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
     spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Web Scraper – Extract External Links with Ease',
+    desc: 'The Web Scraper is a fast and efficient tool designed to extract all external links from any webpage in seconds. Just provide a URL, and it will scan the entire page, filtering out links that lead to external websites.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Whether you are researching competitors, analyzing backlinks, or gathering data, this scraper makes the process effortless. No manual searching—just run the tool and get a clean, organized list of outbound links instantly!',
+    href: 'https://github.com/i-am-abdullah/web_scraper_v1',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
+    technologies:["NodeJS", "ExpressJS","Axios","Cheerio" ],
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
     spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
+
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Next.js Scalable Dashboard',
+    desc: 'The Next.js Scalable Dashboard is a sleek, high-performance template built with MUI and Tailwind CSS, offering a solid foundation for any modern web application. Designed for flexibility and scalability, it provides a clean, minimal UI ready for customization.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'Whether you are building analytics, admin panels, or business tools, this dashboard ensures a seamless developer experience with responsive design and reusable components. Start with a blank slate and scale effortlessly as your project grows!',
+    href: 'https://github.com/i-am-abdullah/next-dashboard',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
+    technologies:["NextJS", "TailwindCSS","MaterialUI"],
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
     spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
   },
+  {
+    title: 'Ai Chatbot',
+    desc: 'Built with Node.js and ChromaDB, this AI chatbot transforms any website into an intelligent assistant by extracting and storing its content for precise, context-aware responses. Simply provide a URL, and it fine-tunes itself for seamless integration.',
+    subdesc:
+      'Designed for scalability and easy deployment with Docker, it enhances user engagement by turning static web content into dynamic, AI-driven conversations.',
+    href: 'https://github.com/i-am-abdullah/ai-chatbot',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/project-logo5.png',
+    technologies:["NodeJS", "ExpressJS","ChromaDB","Cheerio", "OpenAI" ],
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+  },  
+  // {
+  //   title: 'Next.js Scalable Dashboard',
+  //   desc: 'The Next.js Scalable Dashboard is a sleek, high-performance template built with MUI and Tailwind CSS, offering a solid foundation for any modern web application. Designed for flexibility and scalability, it provides a clean, minimal UI ready for customization.',
+  //   subdesc:
+  //     'Whether you are building analytics, admin panels, or business tools, this dashboard ensures a seamless developer experience with responsive design and reusable components. Start with a blank slate and scale effortlessly as your project grows!',
+  //   href: 'https://github.com/i-am-abdullah/next-dashboard',
+  //   texture: '/textures/project/project5.mp4',
+  //   logo: '/assets/project-logo5.png',
+  //   logoStyle: {
+  //     backgroundColor: '#1C1A43',
+  //     border: '0.2px solid #252262',
+  //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+  //   },
+  //   spotlight: '/assets/spotlight5.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailwindCSS',
+  //       path: 'assets/tailwindcss.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'TypeScript',
+  //       path: '/assets/typescript.png',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Framer Motion',
+  //       path: '/assets/framer.png',
+  //     },
+  //   ],
+  // },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -260,29 +253,157 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'AEPL Solutions',
+    pos: 'Senior Full Stack Developer',
+    duration: 'Jan 2025 - Present  · Remote',
+    title: "Building a cross-platform app using React Native and React for a seamless user experience, with a scalable NestJS backend. Implementing AWS services like IVS, Lambda Functions, and EC2 for efficient cloud infrastructure. Optimizing performance, integrating third-party services, and leveraging AI frameworks like LangChain with OpenAI for intelligent chat experiences.",
+    icon: '/assets/organization-100.svg',
     animation: 'victory',
+    // tags: [
+    //   {
+    //     id: 1,
+    //     name: 'React.js',
+    //     path: '/assets/react.svg',
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'TailwindCSS',
+    //     path: 'assets/tailwindcss.png',
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'TypeScript',
+    //     path: '/assets/typescript.png',
+    //   },
+    //   {
+    //     id: 4,
+    //     name: 'Framer Motion',
+    //     path: '/assets/framer.png',
+    //   },
+    // ],
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Tech Triggered (Project-based)',
+    pos: 'Senior Software Engineer',
+    duration: 'Aug 2024 - Jan 2025 · Remote',
+    title: "Developed an AI-driven platform with a Next.js-based CMS for a seamless user experience and a scalable NestJS backend. Built cross-platform mobile apps with React Native to enhance engagement. Leveraged AWS, including EC2 deployments and Lambda functions, to ensure high-performance, cloud-native solutions.",
+    icon: '/assets/organization-100.svg',
     animation: 'clapping',
+    // tags: [
+    //   {
+    //     id: 1,
+    //     name: 'React.js',
+    //     path: '/assets/react.svg',
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'TailwindCSS',
+    //     path: 'assets/tailwindcss.png',
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'TypeScript',
+    //     path: '/assets/typescript.png',
+    //   },
+    //   {
+    //     id: 4,
+    //     name: 'Framer Motion',
+    //     path: '/assets/framer.png',
+    //   },
+    // ],
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'AlphaTrax INC (Contract-based)',
+    pos: 'Senior MERN Stack Developer',
+    duration: 'Mar 2024 - Aug 2024 · On-site',
+    title: "Built a comprehensive website and CRM system using Node.js and AWS, optimizing database queries to support over 1 million concurrent users. Designed a microservices architecture with 30+ APIs using gRPC and GraphQL, reducing latency by 50%. Improved CRM user engagement by 25%, leading to a 15% reduction in churn. ",
+    icon: '/assets/organization-100.svg',
     animation: 'salute',
+    // tags: [
+    //   {
+    //     id: 1,
+    //     name: 'React.js',
+    //     path: '/assets/react.svg',
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'TailwindCSS',
+    //     path: 'assets/tailwindcss.png',
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'TypeScript',
+    //     path: '/assets/typescript.png',
+    //   },
+    //   {
+    //     id: 4,
+    //     name: 'Framer Motion',
+    //     path: '/assets/framer.png',
+    //   },
+    // ],
+  },
+  {
+    id: 4,
+    name: 'STARTX LTD',
+    pos: 'MERN Stack Developer',
+    duration: 'Jan 2023 - Mar 2024 · On-site',
+    title: "Built and optimized high-performance websites, boosting speed by 60% and customer retention by 50%. Developed and customized Shopify stores to enhance e-commerce functionality. Worked on MERN stack projects, improving backend efficiency and resolving UI/UX issues, reducing bugs by 70%. Streamlined Git workflows, increasing team productivity by 30% and minimizing merge conflicts by 80%",
+    icon: '/assets/organization-100.svg',
+    animation: 'salute',
+    // tags: [
+    //   {
+    //     id: 1,
+    //     name: 'React.js',
+    //     path: '/assets/react.svg',
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'TailwindCSS',
+    //     path: 'assets/tailwindcss.png',
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'TypeScript',
+    //     path: '/assets/typescript.png',
+    //   },
+    //   {
+    //     id: 4,
+    //     name: 'Framer Motion',
+    //     path: '/assets/framer.png',
+    //   },
+    // ],
+  },
+  {
+    id: 5,
+    name: 'Quantum Solutions Hub',
+    pos: 'Lead Web Developer',
+    duration: 'Mar 2024 - Aug 2024 · On-site',
+    title: "Created and Optimized websites on WordPress, Wix, and Shopify, improving speed by 60% and retention by 50%. Resolved UI/UX and backend issues, reducing bugs by 70% and boosting stability by 45%. Led e-commerce platform development with Agile, enhancing delivery by 35%. Enhanced site performance with SEO, faster load times, and improved functionality.",
+    icon: '/assets/organization-100.svg',
+    animation: 'salute',
+    // tags: [
+    //   {
+    //     id: 1,
+    //     name: 'React.js',
+    //     path: '/assets/react.svg',
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'TailwindCSS',
+    //     path: 'assets/tailwindcss.png',
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'TypeScript',
+    //     path: '/assets/typescript.png',
+    //   },
+    //   {
+    //     id: 4,
+    //     name: 'Framer Motion',
+    //     path: '/assets/framer.png',
+    //   },
+    // ],
   },
 ];

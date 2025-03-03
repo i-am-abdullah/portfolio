@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
+import { User2 } from 'lucide-react';
 
 import Button from '../components/Button.jsx';
 
-const About = () => {
+const About = ({scrollToContact}) => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText('heyiamabdullah@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -17,16 +18,20 @@ const About = () => {
 
   return (
     <section className="c-space my-20" id="about">
+      <div className="flex items-center gap-2 mb-12">
+        <User2  className="w-8 h-8 text-white-600" />
+        <h2 className="head-text">About Me</h2>
+      </div>
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/profile.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain border-b-2" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Abdullah</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                With over 5 years of experience in full-stack development, I've developed a deep passion for creating 
+                scalable and innovative web solutions.
               </p>
             </div>
           </div>
@@ -63,8 +68,8 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-subtext">I&apos;m based in Pakistan and open to remote work worldwide.</p>
+              <Button name="Contact Me" isBeam containerClass="w-full mt-10" onClick={scrollToContact} />
             </div>
           </div>
         </div>
@@ -95,7 +100,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">heyiamabdullah@gmail.com</p>
               </div>
             </div>
           </div>
