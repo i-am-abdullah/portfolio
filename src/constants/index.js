@@ -255,8 +255,8 @@ export const workExperiences = [
     id: 1,
     name: 'AEPL Solutions',
     pos: 'Senior Full Stack Developer',
-    duration: 'Jan 2025 - Present  · Remote',
-    title: "Building a cross-platform app using React Native and React for a seamless user experience, with a scalable NestJS backend. Implementing AWS services like IVS, Lambda Functions, and EC2 for efficient cloud infrastructure. Optimizing performance, integrating third-party services, and leveraging AI for intelligent chat experiences.",
+    duration: 'Aug 2024 - Present  · Remote',
+    title: "Building cross-platform apps using React, React Native and NextJS  for a seamless user experience, with a scalable NestJS backend. Implementing AWS services like IVS, Lambda Functions, and EC2 for efficient cloud infrastructure. Optimizing performance, integrating third-party services, and leveraging AI for intelligent chat experiences.",
     icon: '/assets/organization-100.svg',
     animation: 'victory',
     // tags: [
@@ -284,37 +284,6 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: 'Tech Triggered (Project-based)',
-    pos: 'Senior Software Engineer',
-    duration: 'Aug 2024 - Jan 2025 · Remote',
-    title: "Developed an AI-driven platform with a Next.js-based CMS for a seamless user experience and a scalable NestJS backend. Built cross-platform mobile apps with React Native to enhance engagement. Leveraged AWS, including EC2 deployments and Lambda functions, to ensure high-performance, cloud-native solutions.",
-    icon: '/assets/organization-100.svg',
-    animation: 'clapping',
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: 'React.js',
-    //     path: '/assets/react.svg',
-    //   },
-    //   {
-    //     id: 2,
-    //     name: 'TailwindCSS',
-    //     path: 'assets/tailwindcss.png',
-    //   },
-    //   {
-    //     id: 3,
-    //     name: 'TypeScript',
-    //     path: '/assets/typescript.png',
-    //   },
-    //   {
-    //     id: 4,
-    //     name: 'Framer Motion',
-    //     path: '/assets/framer.png',
-    //   },
-    // ],
-  },
-  {
-    id: 3,
     name: 'AlphaTrax INC (Contract-based)',
     pos: 'Senior MERN Stack Developer',
     duration: 'Mar 2024 - Aug 2024 · On-site',
@@ -345,7 +314,7 @@ export const workExperiences = [
     // ],
   },
   {
-    id: 4,
+    id: 3,
     name: 'STARTX LTD',
     pos: 'MERN Stack Developer',
     duration: 'Jan 2023 - Mar 2024 · On-site',
@@ -376,7 +345,7 @@ export const workExperiences = [
     // ],
   },
   {
-    id: 5,
+    id: 4,
     name: 'Quantum Solutions Hub',
     pos: 'Lead Web Developer',
     duration: 'Mar 2024 - Aug 2024 · On-site',
