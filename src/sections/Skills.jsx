@@ -25,7 +25,7 @@ const Skills = () => {
       title: "AI Integration & Tools",
       description: "Expertise in AI tools and frameworks for practical applications",
       icon: <BotIcon className="w-6 h-6" />,
-      skills: ['Langchain', 'Vector Databases', 'Ollama', 'RAG']
+      skills: ['Langchain', 'LLMs', 'Ollama', 'RAG']
     },
     {
       title: "Databases",

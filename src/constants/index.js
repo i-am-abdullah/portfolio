@@ -140,7 +140,7 @@ export const myProjects = [
       'With built-in CRUD operations and smart task search, this AI-driven tool keeps you organized with zero hassle. No complex menus—just type, manage, and stay on top of your day with ease!',
     href: 'https://github.com/i-am-abdullah/todo-ai-agent',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/bot.png',
     technologies:["NodeJS", "ExpressJS","PostgreSQL","TypeORM", "TypeScript"],
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -256,7 +256,7 @@ export const workExperiences = [
     name: 'AEPL Solutions',
     pos: 'Senior Full Stack Developer',
     duration: 'Jan 2025 - Present  · Remote',
-    title: "Building a cross-platform app using React Native and React for a seamless user experience, with a scalable NestJS backend. Implementing AWS services like IVS, Lambda Functions, and EC2 for efficient cloud infrastructure. Optimizing performance, integrating third-party services, and leveraging AI frameworks like LangChain with OpenAI for intelligent chat experiences.",
+    title: "Building a cross-platform app using React Native and React for a seamless user experience, with a scalable NestJS backend. Implementing AWS services like IVS, Lambda Functions, and EC2 for efficient cloud infrastructure. Optimizing performance, integrating third-party services, and leveraging AI for intelligent chat experiences.",
     icon: '/assets/organization-100.svg',
     animation: 'victory',
     // tags: [
