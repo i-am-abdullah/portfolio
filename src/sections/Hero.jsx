@@ -174,7 +174,7 @@ const Hero = () => {
         </p>
 
         <div ref={buttonRef} className="w-full lg:w-1/4">
-        <a href="https://drive.google.com/file/d/1Xpb6CeomF07YWMehWHFeemz7X6sGI-iF/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1eLnkeE2OdP2jyV8C-Hn8KLv3nhsb7mBl/view?usp=sharing">
           <Button
             name="Download Resume"
             isBeam

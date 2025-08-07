@@ -255,7 +255,7 @@ export const workExperiences = [
     id: 1,
     name: 'AEPL Solutions',
     pos: 'Senior Full Stack Developer',
-    duration: 'Jan 2024 - Present  · Remote',
+    duration: 'Jan 2025 - Present  · Remote',
     title: "Building cross-platform applications using React, Next.js, React Native, and Angular achieving 30% faster development through code reusability. Developing scalable NestJS and FastAPI backends with sub-100ms response times and optimized database performance. Implementing AWS services like IVS and Lambda Functions with 99.99% reliability, reducing operational costs by 45%. Leveraging AI technologies including OpenAI integration and vector databases for intelligent search and chat experiences, achieving 87% user satisfaction and 55% faster response times.",
     icon: '/assets/organization-100.svg',
     animation: 'victory',
