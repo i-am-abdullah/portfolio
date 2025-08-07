@@ -25,13 +25,13 @@ const Skills = () => {
       title: "AI Integration & Tools",
       description: "Expertise in AI tools and frameworks for practical applications",
       icon: <BotIcon className="w-6 h-6" />,
-      skills: ['Langchain', 'LLMs', 'Ollama', 'RAG']
+      skills: ['Langchain', 'LLMs', 'Transformers', 'RAG']
     },
     {
       title: "Databases",
       description: "Experience with various database systems and management",
       icon: <Database className="w-6 h-6" />,
-      skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'Dynamo DB']
+      skills: ['Postgres / MySQL', 'Vector DB', 'MongoDB', 'Dynamo DB']
     },
     {
       title: "Cloud Services",
