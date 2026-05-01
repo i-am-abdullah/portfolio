@@ -1,45 +1,44 @@
 import { Layout, Database, Cpu, Code2, Cloud, Terminal, BotIcon } from 'lucide-react';
 
-
 const Skills = () => {
-  const skillsData = [
-    {
-      title: "Frontend Development",
-      description: "Specialized in building responsive and interactive user interfaces",
-      icon: <Layout className="w-6 h-6" />,
-      skills: ['React', 'Next.js', 'TypeScript', 'Angular JS', 'React Native', 'Expo']
-    },
-    {
-      title: "Backend Development",
-      description: "Creating robust server-side applications and APIs",
-      icon: <Database className="w-6 h-6" />,
-      skills: ['Node.js', 'Express JS', 'Nest JS', 'Python', 'FastAPI', 'Django']
-    },
-    {
-      title: "Development Tools",
-      description: "Proficient with modern development and deployment tools",
-      icon: <Terminal className="w-6 h-6" />,
-      skills: ['Git', 'Docker', 'AWS', 'Postman', 'VS Code', 'Android Studio']
-    },
-    {
-      title: "AI Integration & Tools",
-      description: "Expertise in AI tools and frameworks for practical applications",
-      icon: <BotIcon className="w-6 h-6" />,
-      skills: ['Langchain', 'LLMs', 'Transformers', 'RAG']
-    },
-    {
-      title: "Databases",
-      description: "Experience with various database systems and management",
-      icon: <Database className="w-6 h-6" />,
-      skills: ['Postgres / MySQL', 'Vector DB', 'MongoDB', 'Dynamo DB']
-    },
-    {
-      title: "Cloud Services",
-      description: "Cloud deployment and serverless architecture",
-      icon: <Cloud className="w-6 h-6" />,
-      skills: ['AWS', 'Azure', 'Vercel', 'Heroku']
-    }
-  ];
+const skillsData = [
+  {
+    title: "Frontend Development",
+    description: "Responsive, cross-platform UIs",
+    icon: <Layout className="w-6 h-6" />,
+    skills: ['React', 'Next.js', 'TypeScript', 'AngularJS', 'React Native', 'Expo']
+  },
+  {
+    title: "Backend Development",
+    description: "Scalable APIs & microservices",
+    icon: <Database className="w-6 h-6" />,
+    skills: ['Express.js', 'NestJS', 'Hono', 'FastAPI', 'Django', 'Flask']
+  },
+  {
+    title: "AI & Agentic Systems",
+    description: "LLMs, RAG pipelines, autonomous agents",
+    icon: <BotIcon className="w-6 h-6" />,
+    skills: ['Agentic AI', 'RAG', 'Tool Calling', 'Voice AI', 'Conversational AI', 'Autonomous AI']
+  },
+  {
+    title: "Databases",
+    description: "Relational, NoSQL & vector stores",
+    icon: <Database className="w-6 h-6" />,
+    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch', 'pgvector', 'DynamoDB']
+  },
+  {
+    title: "Cloud & DevOps",
+    description: "Cloud deployment & CI/CD pipelines",
+    icon: <Cloud className="w-6 h-6" />,
+    skills: ['AWS', 'GCP', 'Azure', 'Docker', 'CI/CD', 'Vercel']
+  },
+  {
+    title: "Dev Tools & Messaging",
+    description: "Tooling, queues & observability",
+    icon: <Terminal className="w-6 h-6" />,
+    skills: ['Git', 'Kafka', 'RabbitMQ', 'ARQ', 'Sentry', 'Postman']
+  }
+];
 
   return (
     <section className="c-space relative min-h-screen py-20" id="skills">

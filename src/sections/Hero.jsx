@@ -163,22 +163,20 @@ const Hero = () => {
           Abdullah.
         </h1>
 
-        <h1 ref={titleRef} className="text-3xl sm:text-xl md:text-5xl lg:text-5xl text-gray-300 mb-3 md:mt-2 lg:mt-2 font-medium leading-snug sm:leading-tight">
-          Full-Stack Software Engineer
+        <h1 ref={titleRef} className="text-3xl md:text-5xl lg:text-5xl text-gray-300 mb-3 md:mt-2 lg:mt-4 font-medium leading-snug sm:leading-tight">
+          Full Stack AI Engineer
         </h1>
 
-        <p ref={descRef} className="max-w-xl text-gray-400 grid-subtext">
-          I'm a software engineer specializing in building exceptional digital
-          experiences. Currently, I'm focused on building scalable, secure and accessible
-          Web and Mobile applications.
+        <p ref={descRef} className="max-w-xl text-gray-400 grid-subtext lg:mt-5">
+I'm a Full Stack AI Engineer specializing in end-to-end system design and Agentic AI workflows. Currently, I'm focused on building scalable, multi-platform solutions spanning Web, Mobile, and AI-powered applications.
         </p>
 
         <div ref={buttonRef} className="w-full lg:w-1/4">
-        <a href="https://drive.google.com/file/d/1eLnkeE2OdP2jyV8C-Hn8KLv3nhsb7mBl/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1muM_QWl6GV18yQl2bLfgueGn2IqaPGYX/view?usp=sharing">
           <Button
             name="Download Resume"
             isBeam
-            containerClass="w-full mt-6"
+            containerClass="w-full mt-6 lg:mt-8"
           />
           </a>
         </div>
@@ -225,7 +223,7 @@ const Hero = () => {
             <Instagram className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
           <a
-            href="https://www.linkedin.com/in/itx-m-abdullah/"
+            href="https://www.linkedin.com/in/its-mohd-abdullah/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon text-gray-400 hover:text-teal-400 transition-colors duration-300"
@@ -291,7 +289,7 @@ const Hero = () => {
             <Instagram className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
           <a
-            href="https://www.linkedin.com/in/itx-m-abdullah/"
+            href="https://www.linkedin.com/in/its-mohd-abdullah/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon text-gray-400 hover:text-teal-400 transition-colors duration-300"

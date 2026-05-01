@@ -1,3 +1,4 @@
+
 export const navLinks = [
   {
     id: 1,
@@ -64,19 +65,19 @@ export const myProjects = [
       'With built-in authentication functionality, developers can focus on core features without reinventing the wheel. Whether you are building a startup or an enterprise-grade system, Base ensures a seamless and secure backend experience.',
     href: 'https://github.com/i-am-abdullah/base',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/layers.png',
+    logo: 'assets/layers.png',
     technologies:["NodeJS", "ExpressJS","MongoDB", "TypeScript","REST APIs", "Authentication" ],
     logoStyle: {
       backgroundColor: '#FFC861',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: 'assets/spotlight1.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: 'assets/react.svg',
       },
       {
         id: 2,
@@ -86,12 +87,12 @@ export const myProjects = [
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: 'assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: 'assets/framer.png',
       },
     ],
   },
@@ -102,19 +103,19 @@ export const myProjects = [
       'With built-in authentication functionality, it streamlines user management while following best practices for security and modular architecture. Whether you are launching a startup or an enterprise system, Base accelerates development without compromising on quality.',
     href: 'https://github.com/i-am-abdullah/base-v2',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: 'assets/project-logo2.png',
     technologies:["NodeJS", "NestJS","PostgreSQL","TypeORM", "TypeScript","REST APIs", "Authentication" ],
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: 'assets/spotlight2.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: 'assets/react.svg',
       },
       {
         id: 2,
@@ -124,12 +125,12 @@ export const myProjects = [
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: 'assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: 'assets/framer.png',
       },
     ],
   },
@@ -140,7 +141,7 @@ export const myProjects = [
       'With built-in CRUD operations and smart task search, this AI-driven tool keeps you organized with zero hassle. No complex menus—just type, manage, and stay on top of your day with ease!',
     href: 'https://github.com/i-am-abdullah/todo-ai-agent',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/bot.png',
+    logo: 'assets/bot.png',
     technologies:["NodeJS", "ExpressJS","PostgreSQL","TypeORM", "TypeScript"],
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -149,7 +150,7 @@ export const myProjects = [
       border: '0.2px solid rgba(208, 213, 221, 1)',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: 'assets/spotlight3.png',
   },
   {
     title: 'Web Scraper – Extract External Links with Ease',
@@ -158,14 +159,14 @@ export const myProjects = [
       'Whether you are researching competitors, analyzing backlinks, or gathering data, this scraper makes the process effortless. No manual searching—just run the tool and get a clean, organized list of outbound links instantly!',
     href: 'https://github.com/i-am-abdullah/web_scraper_v1',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: 'assets/project-logo4.png',
     technologies:["NodeJS", "ExpressJS","Axios","Cheerio" ],
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
-    spotlight: '/assets/spotlight4.png',
+    spotlight: 'assets/spotlight4.png',
 
   },
   {
@@ -175,14 +176,14 @@ export const myProjects = [
       'Whether you are building analytics, admin panels, or business tools, this dashboard ensures a seamless developer experience with responsive design and reusable components. Start with a blank slate and scale effortlessly as your project grows!',
     href: 'https://github.com/i-am-abdullah/next-dashboard',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    logo: 'assets/project-logo5.png',
     technologies:["NextJS", "TailwindCSS","MaterialUI"],
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
-    spotlight: '/assets/spotlight5.png',
+    spotlight: 'assets/spotlight5.png',
   },
   {
     title: 'Ai Chatbot',
@@ -191,14 +192,14 @@ export const myProjects = [
       'Designed for scalability and easy deployment with Docker, it enhances user engagement by turning static web content into dynamic, AI-driven conversations.',
     href: 'https://github.com/i-am-abdullah/ai-chatbot',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    logo: 'assets/project-logo5.png',
     technologies:["NodeJS", "ExpressJS","ChromaDB","Cheerio", "OpenAI" ],
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
-    spotlight: '/assets/spotlight5.png',
+    spotlight: 'assets/spotlight5.png',
   },  
   // {
   //   title: 'Next.js Scalable Dashboard',
@@ -207,18 +208,18 @@ export const myProjects = [
   //     'Whether you are building analytics, admin panels, or business tools, this dashboard ensures a seamless developer experience with responsive design and reusable components. Start with a blank slate and scale effortlessly as your project grows!',
   //   href: 'https://github.com/i-am-abdullah/next-dashboard',
   //   texture: '/textures/project/project5.mp4',
-  //   logo: '/assets/project-logo5.png',
+  //   logo: 'assets/project-logo5.png',
   //   logoStyle: {
   //     backgroundColor: '#1C1A43',
   //     border: '0.2px solid #252262',
   //     boxShadow: '0px 0px 60px 0px #635BFF4D',
   //   },
-  //   spotlight: '/assets/spotlight5.png',
+  //   spotlight: 'assets/spotlight5.png',
   //   tags: [
   //     {
   //       id: 1,
   //       name: 'React.js',
-  //       path: '/assets/react.svg',
+  //       path: 'assets/react.svg',
   //     },
   //     {
   //       id: 2,
@@ -228,12 +229,12 @@ export const myProjects = [
   //     {
   //       id: 3,
   //       name: 'TypeScript',
-  //       path: '/assets/typescript.png',
+  //       path: 'assets/typescript.png',
   //     },
   //     {
   //       id: 4,
   //       name: 'Framer Motion',
-  //       path: '/assets/framer.png',
+  //       path: 'assets/framer.png',
   //     },
   //   ],
   // },
@@ -253,157 +254,56 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'AEPL Solutions',
-    pos: 'Senior Full Stack Developer',
-    duration: 'Jan 2025 - Present  · Remote',
-    title: "Building cross-platform applications using React, Next.js, React Native, and Angular achieving 30% faster development through code reusability. Developing scalable NestJS and FastAPI backends with sub-100ms response times and optimized database performance. Implementing AWS services like IVS and Lambda Functions with 99.99% reliability, reducing operational costs by 45%. Leveraging AI technologies including OpenAI integration and vector databases for intelligent search and chat experiences, achieving 87% user satisfaction and 55% faster response times.",
-    icon: '/assets/organization-100.svg',
+    name: 'Awaaz e Sehat',
+    pos: 'Senior Full Stack AI Engineer',
+    duration: 'Jan 2026 - Present · On-site',
+    title: "Leading end-to-end system design for a multi-platform healthcare solution spanning Web, Mobile, and Voice-First WhatsApp Bot. Architected Agentic AI workflows and RAG pipelines using OpenAI GPT, LangChain/LangGraph, and Elasticsearch with ElevenLabs ASR for multilingual health interactions. Engineered a high-throughput async processing layer using ARQ + Redis + FastAPI, decoupling AI workloads for non-blocking, scalable performance. Leading a cross-functional team driving PR reviews, CI/CD pipelines, DevOps ownership, and full-stack observability via Sentry.",
+    icon: 'assets/organization-100.svg',
     animation: 'victory',
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: 'React.js',
-    //     path: '/assets/react.svg',
-    //   },
-    //   {
-    //     id: 2,
-    //     name: 'TailwindCSS',
-    //     path: 'assets/tailwindcss.png',
-    //   },
-    //   {
-    //     id: 3,
-    //     name: 'TypeScript',
-    //     path: '/assets/typescript.png',
-    //   },
-    //   {
-    //     id: 4,
-    //     name: 'Framer Motion',
-    //     path: '/assets/framer.png',
-    //   },
-    // ],
   },
   {
     id: 2,
-    name: 'Tech Triggered',
-    pos: 'Senior Full Stack Developer',
-    duration: 'Aug 2024 - Jan 2025  · Remote',
-    title: "Developed AI-driven CMS platform using Next.js and NestJS with PostgreSQL backend for scalable user experiences. Implemented Redis caching reducing database load by 65% and response times by 80%. Contributed to React Native mobile development for seamless cross-platform functionality.",
-    icon: '/assets/organization-100.svg',
+    name: 'AEPL Solutions',
+    pos: 'Lead Full Stack Engineer',
+    duration: 'Jan 2025 - Jan 2026 · Remote',
+    title: "Architected cross-platform applications using React, Next.js, React Native, and Angular, achieving 30% faster development through code reusability. Developed scalable NestJS and FastAPI backends on AWS and GCP powering LLM and Agentic AI workloads. Implemented Agentic AI workflows using OpenAI, LangChain, and LangGraph — achieving 87% user satisfaction and 65% autonomous resolution. Engineered serverless architectures with 99.99% reliability, reducing operational costs by 45%.",
+    icon: 'assets/organization-100.svg',
     animation: 'victory',
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: 'React.js',
-    //     path: '/assets/react.svg',
-    //   },
-    //   {
-    //     id: 2,
-    //     name: 'TailwindCSS',
-    //     path: 'assets/tailwindcss.png',
-    //   },
-    //   {
-    //     id: 3,
-    //     name: 'TypeScript',
-    //     path: '/assets/typescript.png',
-    //   },
-    //   {
-    //     id: 4,
-    //     name: 'Framer Motion',
-    //     path: '/assets/framer.png',
-    //   },
-    // ],
   },
   {
     id: 3,
-    name: 'AlphaTrax INC (Contract-based)',
-    pos: 'Senior MERN Stack Developer',
-    duration: 'Mar 2024 - Aug 2024 · On-site',
-    title: "Built a comprehensive website and CRM system using Node.js and AWS, optimizing database queries to support over 1 million concurrent users. Designed a microservices architecture with 30+ APIs using gRPC and GraphQL, reducing latency by 50%. Improved CRM user engagement by 25%, leading to a 15% reduction in churn. ",
-    icon: '/assets/organization-100.svg',
+    name: 'Ensan AI',
+    pos: 'Senior Full Stack Developer (Contract)',
+    duration: 'Jul 2024 - Jan 2025 · Remote',
+    title: "Architected a production-grade AI Appointment Scheduling Agent using LangGraph and FastAPI with tool-calling, stateful memory, and guardrails for autonomous end-to-end scheduling. Built RAG pipelines with pgvector and PostgreSQL using semantic and hybrid retrieval, powering context-aware, hallucination-resistant conversational AI. Engineered a scalable NestJS backend applying Factory, Template, and Base design patterns as a structured DB layer for LangGraph agents. Led full DevOps setup with Docker, CI/CD pipelines, and multi-service deployments.",
+    icon: 'assets/organization-100.svg',
     animation: 'salute',
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: 'React.js',
-    //     path: '/assets/react.svg',
-    //   },
-    //   {
-    //     id: 2,
-    //     name: 'TailwindCSS',
-    //     path: 'assets/tailwindcss.png',
-    //   },
-    //   {
-    //     id: 3,
-    //     name: 'TypeScript',
-    //     path: '/assets/typescript.png',
-    //   },
-    //   {
-    //     id: 4,
-    //     name: 'Framer Motion',
-    //     path: '/assets/framer.png',
-    //   },
-    // ],
   },
   {
     id: 4,
-    name: 'STARTX LTD',
-    pos: 'MERN Stack Developer',
-    duration: 'Jan 2023 - Mar 2024 · On-site',
-    title: "Built and optimized high-performance websites, boosting speed by 60% and customer retention by 50%. Developed and customized Shopify stores to enhance e-commerce functionality. Worked on MERN stack projects, improving backend efficiency and resolving UI/UX issues, reducing bugs by 70%. Streamlined Git workflows, increasing team productivity by 30% and minimizing merge conflicts by 80%",
-    icon: '/assets/organization-100.svg',
+    name: 'Tech Parx',
+    pos: 'Senior Full Stack Developer (Contract)',
+    duration: 'Feb 2024 - Jul 2024 · Remote',
+    title: "Developed a CMS for an AI-driven platform using Next.js, enabling LLM-generated content configuration, review, and presentation. Built a scalable NestJS and PostgreSQL backend on GCP, integrating LLM APIs and a RAG pipeline for context-aware responses. Designed a Redis caching layer for embeddings and retrieval results, reducing database load by 65% and improving response times by 80%.",
+    icon: 'assets/organization-100.svg',
     animation: 'salute',
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: 'React.js',
-    //     path: '/assets/react.svg',
-    //   },
-    //   {
-    //     id: 2,
-    //     name: 'TailwindCSS',
-    //     path: 'assets/tailwindcss.png',
-    //   },
-    //   {
-    //     id: 3,
-    //     name: 'TypeScript',
-    //     path: '/assets/typescript.png',
-    //   },
-    //   {
-    //     id: 4,
-    //     name: 'Framer Motion',
-    //     path: '/assets/framer.png',
-    //   },
-    // ],
   },
   {
     id: 5,
-    name: 'Quantum Solutions Hub',
-    pos: 'Lead Web Developer',
-    duration: 'Mar 2024 - Aug 2024 · On-site',
-    title: "Created and Optimized websites on WordPress, Wix, and Shopify, improving speed by 60% and retention by 50%. Resolved UI/UX and backend issues, reducing bugs by 70% and boosting stability by 45%. Led e-commerce platform development with Agile, enhancing delivery by 35%. Enhanced site performance with SEO, faster load times, and improved functionality.",
-    icon: '/assets/organization-100.svg',
+    name: 'STARTX LTD',
+    pos: 'Senior MERN Stack Developer',
+    duration: 'Jan 2022 - Feb 2024 · On-site',
+    title: "Engineered and deployed MERN, FastAPI, and Django systems on AWS and GCP, integrating LLM capabilities to improve throughput by 60% and customer retention by 50%. Led end-to-end full-stack development using Agile, accelerating project delivery by 35% with AI-enhanced workflows. Streamlined Git workflows with AI-assisted code review, boosting productivity by 30% and minimizing merge conflicts.",
+    icon: 'assets/organization-100.svg',
     animation: 'salute',
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: 'React.js',
-    //     path: '/assets/react.svg',
-    //   },
-    //   {
-    //     id: 2,
-    //     name: 'TailwindCSS',
-    //     path: 'assets/tailwindcss.png',
-    //   },
-    //   {
-    //     id: 3,
-    //     name: 'TypeScript',
-    //     path: '/assets/typescript.png',
-    //   },
-    //   {
-    //     id: 4,
-    //     name: 'Framer Motion',
-    //     path: '/assets/framer.png',
-    //   },
-    // ],
+  },
+  {
+    id: 6,
+    name: 'Quantum Solutions Hub',
+    pos: 'MERN Stack Developer',
+    duration: 'Sep 2020 - Jan 2022 · On-site',
+    title: "Developed high-performance React applications with a Node.js backend, improving rendering and load times by 60%. Fixed UI/UX inconsistencies through component lifecycle optimization, state management, and API call tuning, reducing bugs by 70%. Enhanced user engagement through lazy loading, memoization, and optimized asset delivery.",
+    icon: 'assets/organization-100.svg',
+    animation: 'salute',
   },
 ];

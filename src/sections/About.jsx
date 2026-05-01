@@ -25,13 +25,12 @@ const About = ({scrollToContact}) => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/profile.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain border-b-2" />
+            <img src="assets/profile-picccccc.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain border-b-2" />
 
             <div>
               <p className="grid-headtext">Hi, I’m Abdullah</p>
               <p className="grid-subtext">
-                With over 5 years of experience in full-stack development, I've developed a deep passion for creating 
-                scalable and innovative web solutions.
+                With 6+ years of experience in full-stack and AI engineering, I'm passionate about building scalable multi-platform solutions and production-grade Agentic AI systems.
               </p>
             </div>
           </div>
