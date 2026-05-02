@@ -1,6 +1,10 @@
-import React from 'react';
+import { useEffect } from 'react';
 
 const Loader = () => {
+  useEffect(() => {
+    document.getElementById('initial-loader')?.remove();
+  }, []);
+
   return (
     <div className="fixed inset-0 bg-[#010103] z-50 flex items-center justify-center">
       <div className="relative">
