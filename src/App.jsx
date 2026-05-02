@@ -1,14 +1,14 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import Hero from './sections/Hero.jsx';
-import About from './sections/About.jsx';
-import Footer from './sections/Footer.jsx';
 import Navbar from './sections/Navbar.jsx';
-import Contact from './sections/Contact.jsx';
-import Clients from './sections/Clients.jsx';
-import Projects from './sections/Projects.jsx';
-import WorkExperience from './sections/Experience.jsx';
-import Skills from './sections/Skills.jsx';
 import Loader from './sections/Loader.jsx';
+
+const About = lazy(() => import('./sections/About.jsx'));
+const Skills = lazy(() => import('./sections/Skills.jsx'));
+const WorkExperience = lazy(() => import('./sections/Experience.jsx'));
+const Projects = lazy(() => import('./sections/Projects.jsx'));
+const Contact = lazy(() => import('./sections/Contact.jsx'));
+const Footer = lazy(() => import('./sections/Footer.jsx'));
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -79,13 +79,14 @@ const App = () => {
         <main className="max-w-7xl mx-auto relative">
           <Navbar />
           <Hero />
-          <About scrollToContact={scrollToContact} />
-          <Skills />
-          <WorkExperience />
-          <Projects />
-          {/* <Clients /> */}
-          <Contact reff={contactRef} />
-          <Footer />
+          <Suspense fallback={null}>
+            <About scrollToContact={scrollToContact} />
+            <Skills />
+            <WorkExperience />
+            <Projects />
+            <Contact reff={contactRef} />
+            <Footer />
+          </Suspense>
         </main>
       )}
     </>

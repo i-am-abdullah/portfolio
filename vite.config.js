@@ -1,8 +1,19 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/"
+  base: "/",
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'gsap-vendor': ['gsap', '@gsap/react'],
+          'globe-vendor': ['react-globe.gl'],
+          'lucide-vendor': ['lucide-react'],
+        },
+      },
+    },
+  },
 })
