@@ -168,7 +168,7 @@ const Hero = () => {
         </h1>
 
         <p ref={descRef} className="max-w-xl text-gray-400 grid-subtext lg:mt-5">
-I'm a Full Stack AI Engineer specializing in end-to-end system design and Agentic AI workflows. Currently, I'm focused on building scalable, multi-platform solutions spanning Web, Mobile, and AI-powered applications.
+I'm a Senior Full Stack AI Engineer specializing in end-to-end system design and Agentic AI workflows. Currently, I'm focused on building scalable, multi-platform solutions spanning Web, Mobile, and AI-powered applications.
         </p>
 
         <div ref={buttonRef} className="w-full lg:w-1/4">
